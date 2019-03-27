@@ -1,0 +1,55 @@
+body{
+	background-image: url(../img/heart.png);
+	font-family: "PingFang SC","微软雅黑","sans-serif";
+	/*background-repeat: no-repeat;*/
+	background-attachment: fixed;
+	width: 1920px;
+	height: 1080px;
+}
+.head{
+	text-align: center;
+}
+h1{
+	font-size: 60px;
+	color: pink;
+}
+h3{
+	font-size: 20px;
+	color: lightpink;
+	margin-top: -30px;
+}
+.body{
+	width: 80%;
+	height: 80%;
+	background-color: yellow;
+	margin: 0 auto;
+}
+.box1{
+	width: 50%;
+	height: 100%;
+	float:left;
+	background-color: skyblue;
+}
+.box2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: pink;
+}
+p{
+	text-align: center;
+	font-size: 30px;
+
+}
+span{
+	font-size: 25px;
+}
+.content{
+	margin: 0 20px;
+}
+ol{
+	font-size: 22px;
+}
+.blessing{
+	font-size: 30px;
+}

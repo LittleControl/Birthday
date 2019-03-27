@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*background-image: url(../img/heart.png);*/
+	background-color: aliceblue;
+	font-family: "PingFang SC","微软雅黑","sans-serif";
+}
+.title{
+	color: red;
+	text-align: center;
+	margin: 10px auto 0 auto;
+	font-size: 40px;
+}
+.marquee{;
+	behavior:alternate;
+	font-size: 20px;
+	color:#FFA07A;
+	/*padding-bottom:10px;*/
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+.nav{
+	width: 1600px;
+	padding: 20px 0 20px 0;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+.navHyper{
+	display: block;
+	font-size:20px;
+	font-weight: 100;
+	width: 25%;
+	float: left;
+	/*margin: 0 auto;*/
+	background-color: lightcyan;
+	text-decoration: none;
+	color: yellowgreen;
+	text-align: center;
+}
+.navHyper:hover{
+	background-color: #bfa;
+	text-decoration: underline;
+}
+.content{
+	width: 1600px;
+	height: 770px;
+	background-color: yellow;
+	margin:0 auto;
+	overflow: hidden;
+}
+.video{
+	width: 60%;
+	height: 70%;
+	background-color: pink;
+	float:left;
+}
+.commit{
+	width: 40%;
+	height: 70%;
+	float: left;
+	/*background-color: red;*/
+}
+.space{
+	width: 100%;
+	height: 30%;
+	background-color: skyblue;
+	overflow: hidden;
+}
+.sayings{
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+ul{
+	font-size: 20px;
+	line-height: 2;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.tree{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.tree a{
+	width: 100%;
+	height: 100%;;
+}
+.tree a img{
+	height: 100%;
+	width: 100%;
+}
+.footer{
+	width: 1600px;
+	height: 50px;
+	background-color: orange;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+}
+.copyright{
+	color: white;
+	width: 100%;
+	float: left;
+	height: 45%;
+	background-color: #8470FF;
+	text-align: center;
+}
+.link{
+	width: 100%;
+	height: 55%;
+	background-color: aliceblue;
+	float: left;
+}
+.footer a{
+	text-decoration:none;
+}
+.footer a:link{
+	color: black;
+}
+.footer a:hover{
+	color: purple;
+}
+.footer a:visited{
+	color:skyblue;
+}
+.footer a:active{
+	color: blue;
+}
+.text{
+	float: left;
+	margin:6px 20px 0 35%;
+}
+.sicon{
+	float: left;
+	margin-top: 4px;
+	margin-right: 20px;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+}
+.fixed_left{
+	position: fixed;
+	top: 10%;
+	left: 2%;
+	background-color: aliceblue;
+}
+.fixed_right{
+	position: fixed;
+	top: 10%;
+	left: 95%;
+	background-color: aliceblue;
+}
+#mp4{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.words{
+	width: 100%;
+	height: 100%;
+	background-color: bisque;
+	text-align: center;
+	font-size: 20px;
+}

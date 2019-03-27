@@ -1,0 +1,7 @@
+body{
+	background-color: pink;
+}
+audio{
+	display: block;
+	margin: 400px auto;
+}
