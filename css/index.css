@@ -6,6 +6,7 @@ body{
 	/*background-image: url(../img/heart.png);*/
 	background-color: aliceblue;
 	font-family: "PingFang SC","微软雅黑","sans-serif";
+	font-size: 16px;
 }
 .title{
 	color: red;
@@ -22,8 +23,10 @@ body{
 	margin-top: -10px;
 }
 .nav{
-	width: 1600px;
-	padding: 20px 0 20px 0;
+	/*width: 1600px;
+	padding: 20px 0 20px 0;*/
+	width: auto;
+	padding: 20px 8% 20px 8%;
 	margin: 0 auto;
 	line-height: 1.5;
 }
@@ -44,16 +47,19 @@ body{
 	text-decoration: underline;
 }
 .content{
-	width: 1600px;
-	height: 770px;
-	background-color: yellow;
+	/*width: 1600px;*/
+	width: auto;
+	height: 750px;
+	/*background-color: yellow;*/
+	padding-left: 8%;
+	padding-right: 8%;
 	margin:0 auto;
 	overflow: hidden;
 }
 .video{
 	width: 60%;
 	height: 70%;
-	background-color: pink;
+	background-color: black;
 	float:left;
 }
 .commit{
@@ -90,12 +96,14 @@ ul{
 }
 .tree a img{
 	height: 100%;
-	width: 100%;
+	height: 100%;
 }
 .footer{
-	width: 1600px;
+	width: auto;
 	height: 50px;
-	background-color: orange;
+	padding-left: 8%;
+	padding-right: 8%;
+	/*background-color: orange;*/
 	margin: 0 auto 0 auto;
 	overflow: hidden;
 }
@@ -106,6 +114,7 @@ ul{
 	height: 45%;
 	background-color: #8470FF;
 	text-align: center;
+	margin-bottom: 1px;
 }
 .link{
 	width: 100%;
@@ -143,13 +152,13 @@ ul{
 }
 .fixed_left{
 	position: fixed;
-	top: 10%;
+	top: 12%;
 	left: 2%;
 	background-color: aliceblue;
 }
 .fixed_right{
 	position: fixed;
-	top: 10%;
+	top: 12%;
 	left: 95%;
 	background-color: aliceblue;
 }
